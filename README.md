@@ -39,9 +39,10 @@ node -v => v20.10.9 (Semantic version)
 npm -v => 10.2.3 (Semantic version)
 npm init
 npm init -y
+npm install
 ```
 
-## Nodemon 
+## Nodemon (Nodemon: Node js monitor ==> js kodunu takip eder)
 ```sh
 npm install -g nodemon
 npm insall nodemon --save-dev
@@ -55,6 +56,7 @@ nodemon -q index.js
  cd .
  cd ..
  mkdir dizin
+ cat >> deneme.tx
 ```
 
 
@@ -74,5 +76,11 @@ nodemon index.js
 npm run typescript
 npm run nodemon
 ```
+
+## Web Pack 
+```sh
+
+```
+
 
 
