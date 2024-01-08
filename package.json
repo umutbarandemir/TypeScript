@@ -1,0 +1,22 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "[Github]()\r ---\r ## Npm Codes\r ```sh\r npm \r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon ./src/index.js",
+    "typescript": "tsc -w ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "typescript": "^5.3.3"
+  },
+  "proxy": "http://localhost:4444/",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
